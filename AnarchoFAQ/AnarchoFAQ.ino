@@ -19,7 +19,7 @@ DNSServer dnsServer;
 // TRACE output simplified, can be deactivated here
 #define TRACE(...) Serial.printf(__VA_ARGS__)
 
-// name of the server. You reach it using http://anarchy.lan
+// name of the server. You reach it using http://anarchy.faq
 #define HOSTNAME "anarchy.faq"
 
 // need a WebServer for http access on port 80.
@@ -75,7 +75,7 @@ void setup(void) {
   WiFi.persistent(false);
   WiFi.disconnect(true);
   WiFi.softAPConfig(apIp, apIp, IPAddress(255, 255, 255, 0));
-  WiFi.softAP("anarchist_faq", nullptr, 1);
+  WiFi.softAP("anarchist_faq", nullptr, 1); //If you want your WiFi to be called something else change the name between the ""
   // allow to address the device by the given name e.g. http://webserver
   WiFi.setHostname(HOSTNAME);
   dnsServer.setErrorReplyCode(DNSReplyCode::NoError);

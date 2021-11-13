@@ -25,6 +25,7 @@ Alright - let's go!
 1. Install the IDE as usual (Windows: Double click the .exe file you downloaded, Mac: Unpack the .zip file to software)
 1. Start the IDE. We will have to add some settings. :)
 1. Click on `File` -> `Preferences`. In the lower part of the new window you will find `Additional Boards Manager URLs:` -- Copy and paste this: `http://arduino.esp8266.com/stable/package_esp8266com_index.json` (This will allow us to communicate with our Board. :) )
+![Arduino IDE Preferences Dialoge](/pictures/01_arduino_preference_dialoge.png)
 1. Now close the IDE again - we have to do some additional work before we continue there.
 1. Visit the [LittleFS](https://github.com/earlephilhower/arduino-esp8266littlefs-plugin/releases) release page and dwonload the `ESP8266LittleFS-2.6.0.zip`. This will allow us to upload the actual Anarchist FAQ to the Board.
 1. Open the Zip-File and extract the contents to
