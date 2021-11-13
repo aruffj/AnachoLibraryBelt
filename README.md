@@ -44,3 +44,8 @@ Alright - let's go!
 1. The ESP itself is now prepared. Next step: Handy work!
 
 ## Troubleshooting
+*Issue:* Arduino IDE can't find my board!
+*Solution:* Make sure you have the right COM Port selected. If you are unsure which one is the correct one make sure to not connect any USB Stuff besides your ESP and Mouse/Keyboard for the process.
+
+*Issue:* Arduino IDE can't find my board under Linux!
+*Solution:* Run the IDE with `sudo`. Depending on your settings your current user might not be able to mount USB devices which can cause the issue. You will have to replicate `Step 1` again and copy the `ESP8266LittleFS-2.6.0.zip` to `/root/Arduino/` instead. **NOTE**: This is a quick way to do this and absolutely not recommended. Please check for your distro on how to get the correct permissions to your user account. 
