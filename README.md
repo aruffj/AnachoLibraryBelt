@@ -37,7 +37,7 @@ Alright - let's go!
 	* Mac: Create the `tools` folder in `~/Documents/Arduino` and unpack the files there
 1. Now download the arduino project from [here](https://github.com/aruffj/AnachoLibraryBelt/releases/tag/v1.0) and unzip it wherever you like.
 1. Open the File `AnarchoFAQ.ino` from the unzipped folder. This should open the Arduino IDE again.
-1. Directly under the menu you will find an arrow icon. Press that now and it should upload to the micro controller. If not have a look at the troubleshooting section. You will see a status update in the lower black window. It will tell you when it's finished. :)
+1. Directly under the menu you will find an arrow icon. Click it and it should upload the program to the micro controller. If this doesn't work look at the Troubleshooting section at the end of the guide. You will see a status update in the lower black window. It will tell you there when it's finished. :)
 
 ![Arduino IDE Compile and Upload](/pictures/03_arduino_compile_and_upload.png)
 1. When your compile and upload succeeded reconnect the ESP Board (if in doubt: Unplug the cable and plug it in again; some boards have a `RST` (Reset) button directly on the board which can also be used.
